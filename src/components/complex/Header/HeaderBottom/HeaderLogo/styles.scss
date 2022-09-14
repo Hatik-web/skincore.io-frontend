@@ -1,0 +1,10 @@
+
+.header__logo-wrapper {
+  transition: 0.3s ease;
+  &:hover {
+    opacity: 0.85;
+  }
+  .header__logo-image {
+    margin-right: 20px;
+  }
+}

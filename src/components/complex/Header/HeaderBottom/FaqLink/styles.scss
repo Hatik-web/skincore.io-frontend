@@ -1,0 +1,26 @@
+
+.support-link {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #CECFD6;
+  font-size: 13px;
+  font-weight: 600;
+  margin-inline: 30px;
+  transition: color .2s ease;
+
+  svg {
+    transition: .5s ease;
+    margin-left: 5px;
+    fill: #CECFD6;
+  }
+
+  &:hover {
+    color: var(--color-gold);
+    fill: var(--color-gold);
+  }
+
+  &:hover svg {
+    fill: var(--color-gold);
+  }
+}

@@ -1,0 +1,32 @@
+@import 'public/styles/mixins';
+
+#live-drop {
+  padding-top: 4px;
+  padding-left: 2px;
+
+  .live__wrapper {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .live__list {
+    display: flex;
+    list-style-type: disc;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 1px;
+
+    &:after {
+      z-index: 50;
+      content: "";
+      height: 100%;
+      width: 120px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: linear-gradient(270.87deg, rgb(24, 24, 36) 2.93%, rgba(24, 24, 36, 0) 78.71%);
+      backdrop-filter: blur(1px);
+    }
+  }
+}

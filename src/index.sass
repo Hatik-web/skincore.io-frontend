@@ -1,0 +1,33 @@
+@import public/styles/normalize
+@import public/styles/fonts
+@import public/styles/variables
+
+*,
+*:after,
+*:before
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+html
+  font-size: 14px
+
+body
+  min-height: 100vh
+  font-family: var(--font-regular)
+  -wbkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+  &::-webkit-scrollbar
+    width: 0
+
+button
+  border: 0
+  padding: 0
+  cursor: pointer
+  background: none
+  outline: none
+
+input[type=number]
+  -moz-appearance: textfield

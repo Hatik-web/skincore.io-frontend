@@ -1,0 +1,120 @@
+.header-bottom {
+  padding-block: 5px;
+    .header__top-inner {
+      display: flex;
+      align-items: center;
+
+      .header__socials{
+        flex-shrink: 0;
+        padding-inline: 30px;
+
+        .socials {
+          display: flex;
+          .socials__item {
+            padding-inline: 9px;
+            .socials__item-link {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 22px;
+              height: 40px;
+              line-height: 0;
+              text-align: center;
+              transition: none;
+
+              svg {
+                transition: .2s ease;
+                fill: #7c808c;
+              }
+
+              &:hover svg {
+                fill: var(--color-gold);
+              }
+            }
+          }
+        }
+      }
+
+      .sound {
+        transform: scale(1.5);
+        margin-inline: 20px;
+
+        &:hover {
+          cursor: pointer;
+        }
+        &:hover path {
+          fill: var(--color-gold);
+        }
+      }
+
+      .header__menu {
+        display: flex;
+        flex-grow: 1;
+        margin-inline: 10px;
+
+        .header__menu-item {
+          position: relative;
+          border-right: 1px solid var(--color-light-gold);
+          margin-inline: 2px;
+
+          .header__menu-item-link {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding: 20px 18px;
+            color: var(--color-white);
+            font-size: 15px;
+            transition: color .2s ease;
+
+            svg {
+              transition: .7s ease;
+              fill: var(--color-white);
+            }
+
+            .header__menu-item-icon {
+              margin-top: -4px;
+              display: block;
+              margin-right: 7px;
+            }
+          }
+
+          .header__menu-item-link:hover {
+            color: var(--color-gold);
+            cursor: pointer;
+          }
+          .header__menu-item-link:hover svg {
+            fill: var(--color-gold);
+            cursor: pointer;
+          }
+          .header__menu-item-link:hover svg ellipse{
+            fill: var(--color-gold);
+            cursor: pointer;
+          }
+          .header__menu-item-link:hover svg path{
+            fill: var(--color-gold);
+            cursor: pointer;
+          }
+        }
+
+        .active {
+          &:before {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #E4AE39;
+            box-shadow: 0 0 40px #E4AE39;
+            background: linear-gradient(180deg, #FBE750 -34.55%, #FAAE23 133.13%);
+            border-radius: 15px 15px 0 0;
+            animation: spaceInUp .5s;
+          }
+        }
+      }
+
+      .auth {
+        flex-shrink: 0;
+      }
+    }
+}

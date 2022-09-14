@@ -1,0 +1,42 @@
+
+#profile {
+  display: flex;
+  align-items: center;
+
+  .profile_money {
+    cursor: pointer;
+  }
+
+  .profile-link {
+    display: flex;
+    align-items: center;
+    .profile_user-info {
+      display: flex;
+      flex-direction: column;
+      //align-items: end;
+      padding-inline: 20px;
+      color: var(--color-gold);
+
+      .profile_balance {
+        color: var(--color-white);
+        font-weight: bold;
+      }
+    }
+
+    .profile_avatar__block {
+      cursor: pointer;
+      img {
+        width: 54px;
+        height: 54px;
+        border: 1px solid #DCAE64;
+        border-radius: 10px;
+        transition: 0.3s;
+      }
+
+      &:hover img {
+        border: 1px solid #36b412;
+      }
+    }
+  }
+
+}

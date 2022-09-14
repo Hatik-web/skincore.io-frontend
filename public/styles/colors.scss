@@ -1,0 +1,130 @@
+.color-white {
+  color: #ffffff !important;
+}
+
+.color-green {
+  color: #3de7a5 !important;
+}
+
+.color-orange {
+  color: #e7a33d !important;
+}
+
+.color-gold {
+  color: #e7a33d !important;
+}
+
+.color-white-gray {
+  color: #c2c2c2 !important;
+}
+
+.color-dark-gray {
+  color: #969cb2 !important;
+}
+
+.rarity-color {
+  &--blue {
+    color: #37aff3 !important;
+  }
+  &--red {
+    color: #eb4b4b !important;
+  }
+  &--pink {
+    color: #8847ff !important;
+  }
+  &--yellow {
+    color: #f8b932 !important;
+  }
+  &--purple {
+    color: #a359ff !important;
+  }
+  &--white {
+    color: #dbe8fc !important;
+  }
+  &--lightBlue {
+    color: #99ccff !important;
+  }
+}
+
+.rarity-bg {
+  &--blue {
+    background: #37aff3 !important;
+  }
+  &--red {
+    background: #eb4b4b !important;
+  }
+  &--pink {
+    background: #8847ff !important;
+  }
+  &--yellow {
+    background: #f8b932 !important;
+  }
+  &--purple {
+    background: #a359ff !important;
+  }
+  &--white {
+    background: #dbe8fc !important;
+  }
+  &--lightBlue {
+    background: #99ccff !important;
+  }
+}
+
+.rarity-gradient {
+  &--blue {
+    background: radial-gradient(
+      61.9% 61.9% at 50% 35.42%,
+      rgba(39, 75, 255, 0.38) 0%,
+      rgba(39, 75, 255, 0.16) 40.1%,
+      rgba(39, 75, 255, 0) 90.67%
+    ) !important;
+  }
+  &--red {
+    background: radial-gradient(
+      61.9% 61.9% at 50% 35.42%,
+      rgba(220, 48, 48, 0.38) 0%,
+      rgba(220, 48, 48, 0.16) 40.1%,
+      rgba(220, 48, 48, 0) 90.67%
+    ) !important;
+  }
+  &--pink {
+    background: radial-gradient(
+      61.9% 61.9% at 50% 35.42%,
+      rgba(163, 89, 255, 0.38) 0%,
+      rgba(163, 89, 255, 0.16) 40.1%,
+      rgba(163, 89, 255, 0) 90.67%
+    ) !important;
+  }
+  &--yellow {
+    background: radial-gradient(
+      61.9% 61.9% at 50% 35.42%,
+      rgba(255, 178, 13, 0.38) 0%,
+      rgba(255, 178, 13, 0.16) 40.1%,
+      rgba(255, 178, 13, 0) 90.67%
+    ) !important;
+  }
+  &--purple {
+    background: radial-gradient(
+      61.9% 61.9% at 50% 35.42%,
+      rgba(240, 53, 181, 0.38) 0%,
+      rgba(240, 53, 181, 0.16) 40.1%,
+      rgba(240, 53, 181, 0) 90.67%
+    ) !important;
+  }
+  &--white {
+    background: radial-gradient(
+      61.9% 61.9% at 50% 35.42%,
+      rgba(77, 80, 92, 0.38) 0%,
+      rgba(77, 80, 92, 0.16) 40.1%,
+      rgba(77, 80, 92, 0) 90.67%
+    ) !important;
+  }
+  &--lightBlue {
+    background: radial-gradient(
+      61.9% 61.9% at 50% 35.42%,
+      rgba(55, 175, 243, 0.38) 0%,
+      rgba(55, 175, 243, 0.16) 40.1%,
+      rgba(55, 175, 243, 0) 90.67%
+    ) !important;
+  }
+}
